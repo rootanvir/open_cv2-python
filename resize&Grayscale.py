@@ -2,7 +2,7 @@ import cv2
 import matplotlib.pyplot as plt
 
 # Load the image
-image = cv2.imread('photo.jpg')
+image = cv2.imread('source/photo.jpg')
 
 # Resize the image to 300x300 pixels
 resized_image = cv2.resize(image, (300, 300))

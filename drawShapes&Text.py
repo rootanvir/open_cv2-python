@@ -2,7 +2,7 @@ import cv2
 import matplotlib.pyplot as plt
 
 # Load the image
-image = cv2.imread('photo.jpg')
+image = cv2.imread('source/photo.jpg')
 
 # Draw a blue rectangle: (start_x, start_y), (end_x, end_y), color, thickness
 cv2.rectangle(image, (50, 50), (250, 250), (255, 0, 0), 3)

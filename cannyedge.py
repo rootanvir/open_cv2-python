@@ -2,7 +2,7 @@ import cv2
 import matplotlib.pyplot as plt
 
 # Load the image
-image = cv2.imread('photo.jpg')
+image = cv2.imread('source/photo.jpg')
 
 # Convert to grayscale (required for Canny)
 gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
